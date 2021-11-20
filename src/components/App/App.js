@@ -19,7 +19,7 @@ class App extends Component{
     }
   }
 
-  startGame(numTiles) {
+  startGame = (numTiles) => {
     this.setState((state) => ({
       playing: true,
       previousTileIndex: null,
